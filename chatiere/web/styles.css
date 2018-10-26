@@ -1,0 +1,38 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.margin0 {
+  margin: 0px;
+}
+
+.header {
+  background-color: #2196F3;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  position: fixed;
+  z-index: 0;
+}
+
+.content {
+  padding: 48px 4px;
+  z-index: 8;
+}
+
+.title {
+  color: #444;
+/*  font-family: Arial, Helvetica, sans-serif; */
+  font-weight: bolder;
+}
+
+.subtitle {
+  color: #444;
+  font-style: oblique;
+/*   font-family: Arial, Helvetica, sans-serif; */
+  font-weight: lighter;
+}
