@@ -3,7 +3,7 @@ import 'package:http/http.dart';
 
 class WaterService {
   final Client _http;
-  static const String _Uri = "http://192.168.0.18:8282";
+  static const String _Uri = "http://localhost:8282";
 
   WaterService(this._http);
 
